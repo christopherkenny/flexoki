@@ -18,6 +18,5 @@ RoxygenNote: 7.3.2
 Imports: 
     ggplot2,
     palette
-URL: https://github.com/christopherkenny/flexoki,
-    https://christophertkenny.com/flexoki/
+URL: https://github.com/christopherkenny/flexoki, https://christophertkenny.com/flexoki/
 BugReports: https://github.com/christopherkenny/flexoki/issues

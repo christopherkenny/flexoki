@@ -4,6 +4,8 @@
 # flexoki <img src="man/figures/logo.png" align="right" height="123" alt="" />
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/christopherkenny/flexoki/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/christopherkenny/flexoki/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 `flexoki` provides a set of color palettes from Steph Ango’s
