@@ -2,7 +2,6 @@
 % Please edit documentation in R/flexoki-package.R
 \docType{package}
 \name{flexoki-package}
-\alias{flexoki}
 \alias{flexoki-package}
 \title{flexoki: Inky Color Schemes}
 \description{

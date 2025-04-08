@@ -1,3 +1,15 @@
+#' 'Flexoki' Color Palettes
+#'
+#' Color palettes from Steph Ango's <https://stephango.com/flexoki>.
+#'
+#' @format list of [palette::palette] vectors
+#'
+#' @examples
+#' plot(flexoki$dark)
+#' plot(flexoki$light)
+#'
+#' @concept colors
+#' @export
 flexoki <- list(
   dark = palette::palette(c(
     red600 = '#AF3029',
