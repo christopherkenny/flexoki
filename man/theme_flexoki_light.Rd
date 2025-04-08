@@ -23,7 +23,7 @@ Light Theme
 ggplot2::mpg |>
   ggplot2::ggplot() +
   ggplot2::geom_point(ggplot2::aes(displ, hwy, colour = class)) +
-  scale_color_flexoki(palette = 'light') +
+  scale_color_flexoki_d(palette = 'light') +
   theme_flexoki_light()
 
 }

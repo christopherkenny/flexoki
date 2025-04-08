@@ -11,7 +11,7 @@
 #' ggplot2::mpg |>
 #'   ggplot2::ggplot() +
 #'   ggplot2::geom_point(ggplot2::aes(displ, hwy, colour = class)) +
-#'   scale_color_flexoki(palette = 'light') +
+#'   scale_color_flexoki_d(palette = 'light') +
 #'   theme_flexoki_light()
 #'
 theme_flexoki_light <- function(base_size = 12, base_family = 'mono', ...) {
@@ -48,7 +48,7 @@ theme_flexoki_light <- function(base_size = 12, base_family = 'mono', ...) {
 #' ggplot2::mpg |>
 #'   ggplot2::ggplot() +
 #'   ggplot2::geom_point(ggplot2::aes(displ, hwy, colour = class)) +
-#'   scale_color_flexoki(palette = 'dark') +
+#'   scale_color_flexoki_d(palette = 'dark') +
 #'   theme_flexoki_dark()
 #'
 theme_flexoki_dark <- function(base_size = 12, base_family = 'mono', ...) {

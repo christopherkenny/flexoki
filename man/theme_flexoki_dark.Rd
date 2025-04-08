@@ -23,7 +23,7 @@ Dark Theme
 ggplot2::mpg |>
   ggplot2::ggplot() +
   ggplot2::geom_point(ggplot2::aes(displ, hwy, colour = class)) +
-  scale_color_flexoki(palette = 'dark') +
+  scale_color_flexoki_d(palette = 'dark') +
   theme_flexoki_dark()
 
 }
