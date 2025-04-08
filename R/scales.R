@@ -1,4 +1,4 @@
-#' 'Flexoki' Color Scales for `ggplot2`
+#' Discrete 'Flexoki' Color Scales for `ggplot2`
 #'
 #' @param palette palette from `names(flexoki)` to use
 #' @param which numeric indices of colors to use. `NULL` by default.
@@ -20,7 +20,7 @@
 #'   ) +
 #'   scale_fill_flexoki_d(palette = 'light')
 #'
-#' @rdname scale_flexoki
+#' @rdname scale_flexoki_d
 #' @export
 scale_color_flexoki_d <- function(palette = 'dark', which = NULL, ...,
                                 reverse = FALSE) {
@@ -37,7 +37,7 @@ scale_color_flexoki_d <- function(palette = 'dark', which = NULL, ...,
   )
 }
 
-#' @rdname scale_flexoki
+#' @rdname scale_flexoki_d
 #' @export
 scale_fill_flexoki_d <- function(palette = 'dark', which = NULL, ...,
                                reverse = FALSE) {
@@ -54,11 +54,25 @@ scale_fill_flexoki_d <- function(palette = 'dark', which = NULL, ...,
   )
 }
 
-#' @rdname scale_flexoki
+#' @rdname scale_flexoki_d
 #' @export
 scale_colour_flexoki_d <- scale_color_flexoki_d
 
-#' @rdname scale_flexoki
+#' Continuous 'Flexoki' Color Scales for `ggplot2`
+#'
+#' @param palette palette from `names(flexoki)` to use
+#' @param ... arguments passed on to `ggplot2::discrete_scale()`
+#' @param reverse Should the vector be reversed? Default is `FALSE`.
+#'
+#' @return A [ggplot2::Scale]
+#'
+#' @examples
+#' ggplot2::faithfuld |>
+#'   ggplot2::ggplot() +
+#'   ggplot2::geom_tile(ggplot2::aes(waiting, eruptions, fill = density)) +
+#'   scale_fill_flexoki_c(palette = 'red')
+#'
+#' @rdname scale_flexoki_c
 #' @export
 scale_color_flexoki_c <- function(palette = 'red', ...,
                                  reverse = FALSE) {
@@ -69,7 +83,7 @@ scale_color_flexoki_c <- function(palette = 'red', ...,
   ggplot2::scale_colour_gradientn(..., colours = pal)
 }
 
-#' @rdname scale_flexoki
+#' @rdname scale_flexoki_c
 #' @export
 scale_fill_flexoki_c <- function(palette = 'red', ...,
                                  reverse = FALSE) {
@@ -80,12 +94,26 @@ scale_fill_flexoki_c <- function(palette = 'red', ...,
   ggplot2::scale_fill_gradientn(..., colours = pal)
 }
 
-#' @rdname scale_flexoki
+#' @rdname scale_flexoki_c
 #' @export
 scale_colour_flexoki_c <- scale_color_flexoki_c
 
 
-#' @rdname scale_flexoki
+#' Binned 'Flexoki' Color Scales for `ggplot2`
+#'
+#' @param palette palette from `names(flexoki)` to use
+#' @param ... arguments passed on to `ggplot2::discrete_scale()`
+#' @param reverse Should the vector be reversed? Default is `FALSE`.
+#'
+#' @return A [ggplot2::Scale]
+#'
+#' @examples
+#' ggplot2::faithfuld |>
+#'   ggplot2::ggplot() +
+#'   ggplot2::geom_tile(ggplot2::aes(waiting, eruptions, fill = density)) +
+#'   scale_fill_flexoki_b(palette = 'red')
+#'
+#' @rdname scale_flexoki_b
 #' @export
 scale_color_flexoki_b <- function(palette = 'red', ...,
                                   reverse = FALSE) {
@@ -97,7 +125,7 @@ scale_color_flexoki_b <- function(palette = 'red', ...,
   ggplot2::binned_scale('color', palette, palette = ramp, ...)
 }
 
-#' @rdname scale_flexoki
+#' @rdname scale_flexoki_b
 #' @export
 scale_fill_flexoki_b <- function(palette = 'red', ...,
                                  reverse = FALSE) {
@@ -109,6 +137,6 @@ scale_fill_flexoki_b <- function(palette = 'red', ...,
   ggplot2::binned_scale('fill', palette, palette = ramp, ...)
 }
 
-#' @rdname scale_flexoki
+#' @rdname scale_flexoki_b
 #' @export
 scale_colour_flexoki_b <- scale_color_flexoki_b

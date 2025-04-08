@@ -4,31 +4,13 @@
 \alias{scale_color_flexoki_d}
 \alias{scale_fill_flexoki_d}
 \alias{scale_colour_flexoki_d}
-\alias{scale_color_flexoki_c}
-\alias{scale_fill_flexoki_c}
-\alias{scale_colour_flexoki_c}
-\alias{scale_color_flexoki_b}
-\alias{scale_fill_flexoki_b}
-\alias{scale_colour_flexoki_b}
-\title{'Flexoki' Color Scales for \code{ggplot2}}
+\title{Discrete 'Flexoki' Color Scales for \code{ggplot2}}
 \usage{
 scale_color_flexoki_d(palette = "dark", which = NULL, ..., reverse = FALSE)
 
 scale_fill_flexoki_d(palette = "dark", which = NULL, ..., reverse = FALSE)
 
 scale_colour_flexoki_d(palette = "dark", which = NULL, ..., reverse = FALSE)
-
-scale_color_flexoki_c(palette = "red", ..., reverse = FALSE)
-
-scale_fill_flexoki_c(palette = "red", ..., reverse = FALSE)
-
-scale_colour_flexoki_c(palette = "red", ..., reverse = FALSE)
-
-scale_color_flexoki_b(palette = "red", ..., reverse = FALSE)
-
-scale_fill_flexoki_b(palette = "red", ..., reverse = FALSE)
-
-scale_colour_flexoki_b(palette = "red", ..., reverse = FALSE)
 }
 \arguments{
 \item{palette}{palette from \code{names(flexoki)} to use}
@@ -43,7 +25,7 @@ scale_colour_flexoki_b(palette = "red", ..., reverse = FALSE)
 A \link[ggplot2:ggplot2-ggproto]{ggplot2::Scale}
 }
 \description{
-'Flexoki' Color Scales for \code{ggplot2}
+Discrete 'Flexoki' Color Scales for \code{ggplot2}
 }
 \examples{
 ggplot2::mpg |>
