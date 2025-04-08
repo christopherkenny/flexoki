@@ -25,7 +25,7 @@ knitr::opts_chunk$set(
 This package provides:
 
 - Dark and light [`ggplot2`](https://ggplot2.tidyverse.org/index.html) themes that match the aesthetic of Flexoki's code editor styles.
-- Custom color and fill scales for discrete data using Flexoki's extended color schemes.
+- Custom color and fill scales for discrete, continuous, and binned data using Flexoki's extended color schemes.
 - Color palettes in the `flexoki` object, which is a list of [`palette`](https://christophertkenny.com/palette/) vectors.
 
 ## Installation
@@ -48,6 +48,6 @@ library(flexoki)
 mpg |>
   ggplot() +
   geom_point(aes(displ, hwy, colour = class)) +
-  scale_color_flexoki(palette = 'light') +
+  scale_color_flexoki_d(palette = 'light') +
   theme_flexoki_light()
 ```

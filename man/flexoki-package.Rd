@@ -8,7 +8,7 @@
 \description{
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-Provides color palettes designed to be reminiscent of text on paper. The color schemes were taken from \url{https://stephango.com/flexoki}. All palettes are discrete palettes and are not necessarily color-blind friendly. Simple scale and theme functions are available for use with 'ggplot2'.
+Provides color palettes designed to be reminiscent of text on paper. The color schemes were taken from \url{https://stephango.com/flexoki}. Includes discrete, continuous, and binned scales that are not necessarily color-blind friendly. Simple scale and theme functions are available for use with 'ggplot2'.
 }
 \seealso{
 Useful links:

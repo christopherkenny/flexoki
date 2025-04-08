@@ -9,8 +9,9 @@ Authors@R:
            comment = c(ORCID = "0000-0002-9386-6860"))
 Description: Provides color palettes designed to be reminiscent of text on paper.
     The color schemes were taken from <https://stephango.com/flexoki>.
-    All palettes are discrete palettes and are not necessarily color-blind friendly.
-    Simple scale and theme functions are available for use with 'ggplot2'.
+    Includes discrete, continuous, and binned scales that are not necessarily 
+    color-blind friendly. Simple scale and theme functions are available for use 
+    with 'ggplot2'.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
