@@ -22,3 +22,5 @@ Imports:
     scales
 URL: https://github.com/christopherkenny/flexoki, https://christophertkenny.com/flexoki/
 BugReports: https://github.com/christopherkenny/flexoki/issues
+Depends: 
+    R (>= 4.1.0)
