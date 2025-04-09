@@ -5,7 +5,13 @@
 
 <!-- badges: start -->
 
+[![CRAN
+status](https://www.r-pkg.org/badges/version/flexoki)](https://CRAN.R-project.org/package=flexoki)
+[![flexoki status
+badge](https://christopherkenny.r-universe.dev/badges/flexoki)](https://christopherkenny.r-universe.dev/flexoki)
 [![R-CMD-check](https://github.com/christopherkenny/flexoki/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/christopherkenny/flexoki/actions/workflows/R-CMD-check.yaml)
+[![Lifecycle:
+stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
 <!-- badges: end -->
 
 `flexoki` provides a set of color palettes from Steph Ango’s
@@ -21,6 +27,13 @@ This package provides:
   [`palette`](https://christophertkenny.com/palette/) vectors.
 
 ## Installation
+
+You can install the stable version of `flexoki` from
+[CRAN](https://cran.r-project.org/package=flexoki) with:
+
+``` r
+install.packages('flexoki')
+```
 
 You can install the development version of `flexoki` from
 [GitHub](https://github.com/christopherkenny/flexoki) with:
